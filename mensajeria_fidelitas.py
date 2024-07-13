@@ -12,10 +12,11 @@ print(borde_inferior)
 while True:
     print("\n================= Menú Principal ==================\n")
     print("1. Iniciar sesión")
-    print("2. Registrar usuario")
+    print("2. Registrar usuario") 
     print("3. Salir")
     opcion_principal = input("\nSeleccione una opción (1/2/3): ")
-
+    
+    
     # Iniciar sesión
     if opcion_principal == '1':
         print(salto_linea)
